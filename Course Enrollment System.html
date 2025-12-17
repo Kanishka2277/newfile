@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Enrollment System</title>
+</head>
+
+<body bgcolor="#cce6ff">
+
+<center>
+    <h1><font color="#003366">COURSE ENROLLMENT SYSTEM</font></h1>
+</center>
+
+<table width="70%" align="center" bgcolor="white" cellpadding="15" border="1">
+    <tr>
+        <td>
+
+            <h2><font color="#004080">Student Information</font></h2>
+            <form method="post" action="php1.php">
+
+            Full Name:<br>
+            <input type="text" size="50"><br><br>
+
+            Student ID:<br>
+            <input type="text" size="50"><br><br>
+
+            Email:<br>
+            <input type="email" size="50"><br><br>
+
+            <h2><font color="#004080">Select Course</font></h2>
+
+            Choose a Course:<br>
+            <select size="1">
+                <option>Select a Course</option>
+
+                <!-- Programming -->
+                <option>Introduction to Programming</option>
+                <option>Object-Oriented Programming</option>
+                <option>Python Programming</option>
+                <option>Java Programming</option>
+                <option>C++ Programming</option>
+
+                <!-- Web Development -->
+                <option>HTML & CSS Basics</option>
+                <option>Advanced Web Development</option>
+                <option>JavaScript Essentials</option>
+                <option>React.js Fundamentals</option>
+
+                <!-- Data / AI -->
+                <option>Data Structures</option>
+                <option>Algorithms</option>
+                <option>Database Management</option>
+                <option>SQL Fundamentals</option>
+                <option>Data Science Basics</option>
+                <option>Machine Learning Introduction</option>
+
+                <!-- Networking -->
+                <option>Computer Networks</option>
+                <option>Network Security</option>
+                <option>Cybersecurity Fundamentals</option>
+
+                <!-- Business -->
+                <option>Business Management</option>
+                <option>Communication Skills</option>
+                <option>Financial Literacy</option>
+            </select>
+
+            <br><br>
+
+            Semester:<br>
+            <select size="1">
+                <option>Select Semester</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+            </select>
+
+            <br><br>
+
+            Additional Notes:<br>
+            <textarea rows="5" cols="50"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit Enrollment">
+
+        </td>
+    </tr>
+</table>
+</form>
+
+</body>
+</html>

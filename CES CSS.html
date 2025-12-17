@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Enrollment System</title>
+   <link rel="stylesheet" type"text/css" href="C:\Users\kanishka_j\Desktop\EXTERNAL.CSS">
+    <!-- INTERNAL CSS -->
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        /* Left Panel */
+        .left-panel {
+            background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            color: #00244d;
+        }
+
+        .left-panel h1 {
+            color: #003399;
+            font-size: 28px;
+            text-shadow: 2px 2px 5px #fff;
+        }
+
+        .left-panel h2 {
+            color: #001a66;
+            margin-top: -10px;
+            font-size: 22px;
+        }
+
+        .left-panel h3 {
+            color: #00264d;
+        }
+
+        .left-panel ul {
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .enroll-btn {
+            background: linear-gradient(90deg, #ff6a00, #ee0979);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 30px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .enroll-btn:hover {
+            transform: scale(1.07);
+        }
+
+        /* Right Panel */
+        .right-panel {
+            background: linear-gradient(135deg, #fdfbfb, #ebedee);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        .right-panel h1 {
+            color: #003388;
+            font-size: 30px;
+            text-shadow: 1px 1px 4px #aaa;
+        }
+
+        /* Course Table */
+        .course-table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .course-table th {
+            padding: 10px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+        }
+
+        .course-table td {
+            padding: 10px;
+        }
+
+        .row1 { background: #ffe5ec; }
+        .row2 { background: #e0f7fa; }
+        .row3 { background: #fff3cd; }
+        .row4 { background: #e8f5e9; }
+        .row5 { background: #f3e5f5; }
+        .row6 { background: #e0f2f1; }
+        .row7 { background: #fffde7; }
+        .row8 { background: #ede7f6; }
+
+        /* Footer */
+        .contact {
+            color: #333;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- MAIN LAYOUT -->
+<table width="100%" cellpadding="20">
+<tr>
+
+<!-- LEFT PANEL -->
+<td width="45%" valign="top" class="left-panel">
+
+    <center>
+        <h1>📚 COURSE ENROLLMENT SYSTEM 📚</h1>
+        <h2>Your Gateway to Better Learning!</h2>
+    </center>
+
+    <h3>✨ Why Join Us?</h3>
+    <p style="font-size: 16px; line-height: 1.6;">
+        Register quickly and access a variety of high-quality courses
+        designed to upgrade your skills!
+    </p>
+
+    <h3>🔥 Key Benefits</h3>
+    <ul>
+        <li>Simple and Quick Enrollment Process</li>
+        <li>Technology, Business, Science & Arts Courses</li>
+        <li>Flexible Learning Options</li>
+        <li>Expert Instructors</li>
+        <li>Certificates After Completion</li>
+    </ul>
+
+    <h3>🎯 Who Can Enroll?</h3>
+    <ul>
+        <li>Students</li>
+        <li>Job Seekers</li>
+        <li>Professionals</li>
+        <li>Anyone Wanting New Skills</li>
+    </ul>
+
+    <center>
+        <h3>🚀 Ready to Begin?</h3>
+        <p style="font-size: 15px;">Start your learning journey now!</p>
+
+        <a href="#courses" class="enroll-btn">👉 Enroll Now</a>
+    </center>
+
+</td>
+
+<!-- RIGHT PANEL -->
+<td width="55%" valign="top" class="right-panel">
+
+    <a name="courses"></a>
+    <center>
+        <h1>🎨 AVAILABLE COURSES</h1>
+    </center>
+
+    <table border="2" class="course-table">
+
+        <tr>
+            <th>Course Name</th>
+            <th>Description</th>
+            <th>Credits</th>
+        </tr>
+
+        <tr class="row1">
+            <td>Introduction to Programming</td>
+            <td>Basics of coding & logical thinking.</td>
+            <td>3</td>
+        </tr>
+
+        <tr class="row2">
+            <td>Python Programming</td>
+            <td>Hands-on Python for beginners.</td>
+            <td>3</td>
+        </tr>
+
+        <tr class="row3">
+            <td>Java Programming</td>
+            <td>Object-Oriented Java concepts.</td>
+            <td>4</td>
+        </tr>
+
+        <tr class="row4">
+            <td>HTML & CSS Basics</td>
+            <td>Webpage structure & styling.</td>
+            <td>3</td>
+        </tr>
+
+        <tr class="row5">
+            <td>Data Structures</td>
+            <td>Stacks, queues, lists, trees, graphs.</td>
+            <td>4</td>
+        </tr>
+
+        <tr class="row6">
+            <td>Machine Learning Basics</td>
+            <td>Introduction to AI models.</td>
+            <td>3</td>
+        </tr>
+
+        <tr class="row7">
+            <td>Cybersecurity Fundamentals</td>
+            <td>Security tools & safe computing.</td>
+            <td>3</td>
+        </tr>
+
+        <tr class="row8">
+            <td>Business Management</td>
+            <td>Leadership & organizational skills.</td>
+            <td>2</td>
+        </tr>
+
+    </table>
+
+    <br><br>
+
+    <div class="contact">
+        <h4>📞 Contact Us</h4>
+        <p>Email: support@coursesystem.com</p>
+        <p>Phone: +123-456-7890</p>
+        <p>© 2025 Course Enrollment System</p>
+    </div>
+
+</td>
+
+</tr>
+</table>
+
+</body>
+</html>
